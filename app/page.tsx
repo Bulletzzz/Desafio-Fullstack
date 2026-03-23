@@ -66,8 +66,7 @@ export default function InventoryManager() {
   return (
     <div className="min-h-screen bg-gray-100 p-4 md:p-8 font-sans text-black">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
-        
-        {/* COLUNA DA ESQUERDA: GERENCIAMENTO/CADASTRO */}
+
         <div className="lg:col-span-5 bg-white p-6 rounded-xl shadow-sm h-fit">
           <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
             <Plus className="text-blue-500" /> Cadastrar Produto
@@ -107,7 +106,6 @@ export default function InventoryManager() {
           </div>
         </div>
 
-        {/* COLUNA DA DIREITA: CATÁLOGO VISUAL */}
         <div className="lg:col-span-7">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-bold flex items-center gap-2">
